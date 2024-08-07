@@ -5,7 +5,7 @@ Ensure the Directory Structure is Set Up Correctly: Organize your project into f
 Git Initialization: Use Git to initialize a version-controlled repository. This allows you to track changes, collaborate with others, and manage different versions of your project.
 
 # 2. Data Preparation
-Load the Dataset: Read the CSV file into a pandas DataFrame using pd.read_csv(). This step is crucial for loading and working with your data.
+Load the Dataset: Read the CSV(https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)file into a pandas DataFrame using pd.read_csv(). This step is crucial for loading and working with your data.
 Rename Columns: Update column names for easier access and clarity. This makes it simpler to reference columns in your code, especially if the original names are not descriptive.
 Drop Unnecessary Columns: Remove columns that are not relevant to the analysis or model training. This helps in focusing on the necessary data and avoids potential confusion or errors.
 Drop Missing Values: Clean the dataset by removing rows with missing values to ensure that the data used for training is complete and reliable. Incomplete data can lead to inaccurate model predictions.
